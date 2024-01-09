@@ -1,3 +1,12 @@
 name: EnchantPlus
 version: '${project.version}'
 main: me.abu.enchantplus.EnchantPlus
+commands:
+    enchantplus:
+        description: EnchantPlus command
+        usage: /enchantplus
+        aliases: [ep]
+    enchantplusreload:
+        description: EnchantPlusReload command
+        usage: /enchantplusreload
+        aliases: [epr]
